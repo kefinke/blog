@@ -138,7 +138,6 @@ class BlogController extends Controller {
 		if (!in_array($urlExt, $imgExts)){
 			return view('newPost')->with('error', "Invalid image link");
 		}else{
-//		if(){}
 		$blog = new Blog;
 		$blog->image = $image;
 		$blog->title=$title;
@@ -146,7 +145,6 @@ class BlogController extends Controller {
 		$blog->user=Session::get('user')->username;
 		
 		$blog->push();
-//	    }
 		return redirect('/');
 	    }
 	    }
