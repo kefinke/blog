@@ -60,10 +60,14 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => env('DB_HOST', 'localhost'),
-			'database'  => 'blog_database',
-			'username'  => 'root',
-			'password'  => '',
+			//'host'      => env('DB_HOST', 'localhost'),
+			//'database'  => 'blog_database',
+			//'username'  => 'root',
+			//'password'  => '',
+                        'host'      => $host,
+			'database'  => $database,
+			'username'  => $username,
+			'password'  => $password,
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
