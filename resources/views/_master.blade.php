@@ -14,7 +14,7 @@
         <header>
         <div id="headLeft"></div>
         <!--<div id='titles'>-->
-        <div  id="title">Scribble</div>
+        <div  id="title">MX</div>
         <!--<div  id="subtitleBox"><div id="top"></div><div id="subtitle"></div><div id="bottom"></div></div>-->
         <div id="subtitleSpace"></div>
        <!-- </div>-->

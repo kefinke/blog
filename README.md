@@ -26,4 +26,5 @@ ___
 >> #### Thanks to Justin for being Justin
 
 ### Change log:
-+ Fixed README
++ Fixed README 5/27/15
++ Added favicon 5/27/15
