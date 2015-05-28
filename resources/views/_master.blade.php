@@ -22,6 +22,6 @@
         <div id="headRight"></div>
         </header>
         @yield('content')
-        <div id="footer">Est. 2015 Kelly Finke, Keki Takahara,  et al.</div>
+        <div id="footer">Est. 2015 Kelly Finke, Walker Griggs, Keki Takahara,  et al.</div>
     </body>
 </html>

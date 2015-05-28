@@ -19,10 +19,11 @@ ___
 +Separate user pages
 +Separate event/class pages
 
+> ## Special thanks to Walker for help with styling
 > ### Thanks to Mr. Torres and Walker for all your (usually) helpful advice
 > ### Thanks to Keki for helping with ideas and coming up with the name
 > ### Thanks to my Painting class for advice and ideas about styling/extra features
->> ## Thanks to Justin for being Justin
+>> ### Thanks to Justin for being Justin
 
 ## Change log:
 +No changes yet
