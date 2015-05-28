@@ -1,10 +1,10 @@
 <?php
-//$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-//
-//$host = $url["host"];
-//$username = $url["user"];
-//$password = $url["pass"];
-//$database = substr($url["path"], 1);
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$host = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$database = substr($url["path"], 1);
 
 return [
 
@@ -60,14 +60,14 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => env('DB_HOST', 'localhost'),
-			'database'  => 'blog_database',
-			'username'  => 'root',
-			'password'  => '',
-//                        'host'      => $host,
-//			'database'  => $database,
-//			'username'  => $username,
-//			'password'  => $password,
+			//'host'      => env('DB_HOST', 'localhost'),
+			//'database'  => 'blog_database',
+			//'username'  => 'root',
+			//'password'  => '',
+                        'host'      => $host,
+			'database'  => $database,
+			'username'  => $username,
+			'password'  => $password,
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
